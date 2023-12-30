@@ -264,12 +264,6 @@ clear
 }
 
 clear
-#GANTI PASSWORD DEFAULT
-restart_system(){
-#IZIN SCRIPT
-MYIP=$(curl -sS ipv4.icanhazip.com)
-echo -e "\e[32mloading...\e[0m" 
-clear
 izinsc="https://raw.githubusercontent.com/Baimkuy/Autoscript/GM//Register"
 # USERNAME
 rm -f /usr/bin/user
