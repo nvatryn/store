@@ -24,10 +24,10 @@ clear;clear;clear
 
   # // Banner
 echo -e "${YELLOW}----------------------------------------------------------${NC}"
-echo -e " Dev > baimstore ${YELLOW}(${NC}${green} Stable Edition ${NC}${YELLOW})${NC}"
+echo -e " Dev > VALL ${YELLOW}(${NC}${green} Stable Edition ${NC}${YELLOW})${NC}"
 echo -e " This Will Quick Setup VPN Server On Your Server"
-echo -e " Auther : ${green}baimstore ${NC}"
-echo -e " © Recode By My Self baimstore ${YELLOW}(${NC} 2023 ${YELLOW})${NC}"
+echo -e " Auther : ${green}TEMPIK ${NC}"
+echo -e " © Recode By My Self BECEK ${YELLOW}(${NC} 2023 ${YELLOW})${NC}"
 echo -e "${YELLOW}----------------------------------------------------------${NC}"
 echo ""
 sleep 2
@@ -83,7 +83,7 @@ gem install lolcat
 apt install wondershaper -y
 clear
 # REPO    
-    REPO="https://raw.githubusercontent.com/Baimkuy/Autoscript/GM/"
+    REPO="https://raw.githubusercontent.com/nvatryn/store/main"
 
 ####
 start=$(date +%s)
@@ -270,7 +270,7 @@ restart_system(){
 MYIP=$(curl -sS ipv4.icanhazip.com)
 echo -e "\e[32mloading...\e[0m" 
 clear
-izinsc="https://raw.githubusercontent.com/Baimkuy/Autoscript/GM//Register"
+izinsc="https://raw.githubusercontent.com/nvatryn/store/main//Register"
 # USERNAME
 rm -f /usr/bin/user
 username=$(curl $izinsc | grep $MYIP | awk '{print $2}')
@@ -322,7 +322,7 @@ URL="https://api.telegram.org/bot$KEY/sendMessage"
 <code>Time     :</code><code>$TIMEZONE</code>
 <code>Exp Sc.  :</code><code>$exp</code>
 <code>────────────────────</code>
-<b> baimstore </b>
+<b> VALLSTORE </b>
 <code>────────────────────</code>
 <i>Automatic Notifications From Github</i>
 "'&reply_markup={"inline_keyboard":[[{"text":"ᴏʀᴅᴇʀ","url":"https://wa.me/+6285294609585"}]]}' 
@@ -532,7 +532,7 @@ print_success "Password SSH"
 function udp_mini(){
 clear
 print_install "Memasang Service Limit IP & Quota"
-wget -q https://raw.githubusercontent.com/Baimkuy/Autoscript/GM//config/fv-tunnel && chmod +x fv-tunnel && ./fv-tunnel
+wget -q https://raw.githubusercontent.com/nvatryn/store/main/config/fv-tunnel && chmod +x fv-tunnel && ./fv-tunnel
 
 # // Installing UDP Mini
 mkdir -p /usr/local/kyt/
